@@ -10,14 +10,18 @@
     <style>
     body {
       font-family: "Chango";
-      font-size: 50px;
+      font-size: 30px;
       color: darkcyan;
+      margin-left: 2%
+      
+      
     }
+
       h11 {
         margin-left: 10%;
         font-family: "Chango";
         
-                font-size: 50%;
+                font-size: 40%;
         font-weight: 100;
                color: burlywood; 
       }
@@ -25,14 +29,14 @@
          
         font-family: "Chango";
         font-size: 50%;
-        font-weight: 100;
+        font-weight: 50;
                color: darkcyan; 
       }
 
       h33 {
          
         font-family: "Chango";
-        font-size: 55%;
+        font-size: 40%;
         font-weight: 100;
                color: darkcyan; 
       }
@@ -63,7 +67,7 @@ document.getElementById("crdate").innerHTML = cdate;
 
 <p class="big"><label><h22>Pass No</h22> </label>
   <h33>
-<input  type="text" name="passno" id="passno" style="width:90%"  required></h33>
+<input  type="text" name="passno" id="passno" style="width:50%"  required></h33>
 </p>
 <script>
   document.getElementById("passno").value = localStorage.getItem("passno1");
@@ -73,7 +77,7 @@ document.getElementById("crdate").innerHTML = cdate;
 
 <p class="big"><label><h22>Name</h22></label>
   <h33>
-  <input  type="text" name="name" id="name" style="width:90%"  required></h33>
+  <input  type="text" name="name" id="name" style="width:50%"  required></h33>
   </p>
   <script>
     document.getElementById("name").value = localStorage.getItem("username1");
