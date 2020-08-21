@@ -153,14 +153,14 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   }
 
   .button {
-    background-color: #4CAF50; /* Green */
+    background-color: green; /* Green */
     border: none;
     color: white;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 40px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -172,7 +172,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     border: 2px solid #43722ebd;
   }
   .button1:hover {
-    background-color: #4CAF50;
+    background-color: yellow;
     color: white;
    
   }
@@ -204,7 +204,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   
   .a-h1{
     padding-bottom : 30px;
-  font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:400;
+  margin:10px 0;
     font-size: 28px;
       margin-left: 2%;
     
@@ -213,7 +215,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
   .a-h4{
     padding-bottom : 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:10px 0;
     font-size: 32px;
     color: darkcyan;
@@ -222,12 +224,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
   .a-h5{
    
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-family: "Chango";
     margin:10px 0;
     font-size: 32px;
-    color: burlywood;
-    font-weight: 500;
+    color: darkcyan;
+    font-weight: 100;
    
-    margin-left: 10%;
+    margin-left: 0%;
     
   }
+
