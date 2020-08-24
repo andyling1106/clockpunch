@@ -24,15 +24,21 @@ document.getElementById('clockme').addEventListener('submit', submitForm);
 function submitForm(e){
     e.preventDefault();
  
+
+
   // get value
   var passno = getInputVal('passno');
   var name = getInputVal('name');
+  var latitude = getInputVal("latitude");
+  var longtitude = getInputVal("longtitude");
    
   var d = new Date();
   var cdate = d.toLocaleString(); 
   
+
+
   // Save Message
-  saveMessage(passno,name,cdate);
+  saveMessage(passno,name,cdate,latitude,longtitude);
 
 
 // show alert  'block = display'
@@ -62,18 +68,24 @@ var onComplete = function(error) {
 };
 
 
-//Save messages to firebase
-function saveMessage(passno,name,cdate){
+  //Save messages to firebase
+function saveMessage(passno,name,cdate,latitude,longtitude){
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
     passno: passno,
       name: name,
         cdate: cdate,
-        }, onComplete);
-     
-        location.replace("form_submit.html");
+        latitude: latitude,
+        longtitude: longtitude,
+                         }, onComplete);
+             location.replace("form_submit.html");
       
 }
+
+
+
+
+
 
 
 
