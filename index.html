@@ -49,7 +49,7 @@
        
       <body onload="getLocation()">
 <header>
-      Clock Punch
+      Clock Punch V.1.0
 </header>
 
 
@@ -75,7 +75,7 @@ document.getElementById("crdate").innerHTML = cdate;
 
     <br>
   <h33>
-<input  type="text" name="passno" id="passno" style="width:80%"  required></h33>
+<input  type="text"  class="resizedTextbox" name="passno" id="passno" style="width:80%"  required></h33>
   </br>
 <script>
   document.getElementById("passno").value = localStorage.getItem("passno1");
@@ -86,7 +86,7 @@ document.getElementById("crdate").innerHTML = cdate;
 <p class="big"><label><h22>Name</h22></label> <br>
 
   <h33>
-  <input  type="text" name="name" id="name" style="width:80%"  required></h33>
+  <input  type="text" class="resizedTextbox"  name="name" id="name" style="width:80%"  required></h33>
   </br>
   <script>
     document.getElementById("name").value = localStorage.getItem("username1");
